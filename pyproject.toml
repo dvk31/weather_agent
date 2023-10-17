@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hello-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["dkdiur383 <88004815+dkdiur383@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.103.2"
+uvicorn = "^0.23.2"
+openai = "^0.28.1"
+python-dotenv = "^1.0.0"
+httpx = "^0.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

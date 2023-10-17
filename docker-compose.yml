@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  fastapi_app:
+    image: weather_agent:latest # Replace with the name and tag of your Docker image
+    container_name: fastapi_container
+    ports:
+      - "80:80"
+    environment:
+      - SOME_ENV_VAR=value # Add environment variables if needed
+    volumes:
+      - .:/usr/src/app # Map the current directory to the working directory in the container
